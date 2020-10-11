@@ -4,6 +4,9 @@
 dotnet new blazorserver -o BlazorApp --no-https 
 cd BlazorApp
 ```
+`dotnet new razorcomponent -n Todo -o Pages` 
+Component should start with capital letter (Todo)
+
 ### What do these commands mean?
 * The __dotnet__ new blazorserver command creates a new Blazor Server app for you.
 * The __-o__ parameter creates a directory named BlazorApp where your app is stored and populates it with the required files.
@@ -19,8 +22,7 @@ Several files were created in the BlazorApp directory, to give you a simple Blaz
 * The **BlazorApp/Pages** directory contains some example web pages for the app.
 * **BlazorApp.csproj** defines the app project and its dependencies.
 
-`dotnet new razorcomponent -n Todo -o Pages` 
-Component should start with capital letter (Todo)
+
 
 
 
